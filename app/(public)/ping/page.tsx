@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import fs from "fs/promises";
 import path from "path";
 import { remark } from "remark";
@@ -13,6 +15,7 @@ export default async function Page() {
   return (
     <main style={{ padding: 24 }}>
       <article dangerouslySetInnerHTML={{ __html: htmlContent }} />
-    </main>
+    </main>export const dynamic = "force-dynamic";
+
   );
 }
