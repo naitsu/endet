@@ -15,7 +15,6 @@ export default async function Page() {
   return (
     <main style={{ padding: 24 }}>
       <article dangerouslySetInnerHTML={{ __html: htmlContent }} />
-    </main>export const dynamic = "force-dynamic";
-
+    </main>
   );
 }
